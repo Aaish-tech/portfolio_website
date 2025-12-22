@@ -6,6 +6,7 @@
       --accent: #4f9cff;
     }
 
+    
     * {
       margin: 0;
       padding: 0;
@@ -151,9 +152,6 @@
   opacity: 0.85;
 }
 
-
-
-    /* ---------- Responsive ---------- */
     @media (max-width: 800px) {
       .project {
         grid-template-columns: 1fr;
@@ -162,7 +160,11 @@
     }
 
     @media (max-width: 600px) {
-      .nav-links {
-        display: none;
+      .nav-links a {
+        font-size: 9px;
+      }
+     
+      .nav-links  {
+        gap: 12px;
       }
     }

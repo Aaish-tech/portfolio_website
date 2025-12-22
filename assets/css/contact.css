@@ -59,7 +59,6 @@
       color: var(--text-white);
     }
 
-    /* ---------- Main ---------- */
     main {
       max-width: 1100px;
       margin: auto;
@@ -85,14 +84,13 @@
       line-height: 1.7;
     }
 
-    /* ---------- Contact Layout ---------- */
     .contact {
       display: grid;
       grid-template-columns: 1fr 1.2fr;
       gap: 60px;
     }
 
-    /* ---------- Info ---------- */
+
     .info p {
       color: var(--text-gray);
       line-height: 1.8;
@@ -108,7 +106,6 @@
       color: var(--accent);
     }
 
-    /* ---------- Form ---------- */
     form {
       background: var(--glass);
       border: 1px solid var(--border);
@@ -172,8 +169,12 @@
     }
 
     @media (max-width: 600px) {
-      .nav-links {
-        display: none;
+      .nav-links a {
+        font-size: 9px;
+      }
+     
+      .nav-links  {
+        gap: 12px;
       }
 
       form {
